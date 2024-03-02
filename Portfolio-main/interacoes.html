@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interações</title>
+    <link rel="stylesheet" href="interacoes.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <script src="interacoes.js"></script>
+</head>
+<body onload="carregar()">
+    <div id="horaDoDia" >
+        <header>
+            <h1>Hora do dia</h1>
+        </header>
+        <section>
+            <div id="msg">
+        
+            </div>
+            <div id="ft">
+                <img id="imagem" src="imagens/hora-do-dia/manha.png" alt="foto">
+        
+            </div>
+        </section>
+    </div>
+
+    <div id="container">
+        <h1>Para interagir</h1>
+        <div id="verificador-de-idade">
+            <h1>Verificador de Idade</h1>
+            <section>
+                <div>
+                    <p>Ano de Nascimento:
+                        <input type="number" name="txtano" id="txtano" min="0">
+        
+                    </p>
+                    <p> Sexo:
+                        <input type="radio" name="radsex" id="masc" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </p>
+                    <p>
+                        <input type="button" value="Verificar" onclick="verificar()">
+                    </p>
+        
+                </div>
+                <div id="res">
+                    Preencha os dados para ver o resultado!
+        
+                </div>
+            </section>
+        </div>
+
+        <div id="contador">
+            <h1>Vamos contar?</h1>
+        <section>
+             <div>
+                 <p>Inicio:
+                     <input type="number" name="inicio" id="inc">
+                 </p>
+                 <p>Fim:
+                     <input type="number" name="fim" id="fimm">
+                 </p>
+                 <p>Passo:
+                     <input type="number" name="passo" id="pass"> 
+                 </p>
+                 <input type="button" value="Contar" onclick="contagem()">
+             </div>
+             <div id="res1">
+                 <p>Preparando a contagem...</p>
+             </div>
+        </section>
+        </div>
+
+        <div id="tabuada">
+        <h1>Tabuada</h1>
+        <section>
+            <div>
+                <p>Número: <input type="number" name="num" id="numero">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+            </div>
+            <div class="esp">
+                <select name="tabuada" id="seltab">  <!--PARA AUMENTAR O TAMANHO DA TABUADA, MAS TEM QUE COLOCAR DENTRO DA TAG, size="10"-->  
+                    <option>Digite um número acima.</option>
+                </select>
+            </div>
+        </section>
+
+        </div>
+
+    </div>
+    <!-- <footer>
+        <p>@daianetrombella</p>
+    </footer> -->
+    
+</body>
+</html>

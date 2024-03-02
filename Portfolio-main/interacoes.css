@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body{
+    /* background-color: #F2C299; */
+    background-image: url('imagem/hao-wang-pVq6YhmDPtk-unsplash.jpg');
+    background-attachment: fixed;
+
+}
+
+#horaDoDia > header{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+#horaDoDia > section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.419);
+
+}
+#horaDoDia > div{
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+
+}
+
+#ft {
+    text-align: center;
+}
+
+
+
+#container{
+   display: flexbox; 
+   /* box-sizing: inherit;
+   display: grid; */
+   text-align: center;
+   margin: auto;
+   max-width: 500px;
+   max-height: 1000px;
+}
+
+#container > h1{
+    color: white;
+}
+
+#verificador-de-idade{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.419);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#contador{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.419);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#tabuada{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.419);
+    text-align: center;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+
+
+}
